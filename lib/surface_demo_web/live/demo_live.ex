@@ -12,6 +12,9 @@ defmodule SurfaceDemoWeb.DemoLive do
       <Alert variant="info">Info alert</Alert>
       <Alert variant="light">Light alert</Alert>
       <Alert variant="dark">Dark alert</Alert>
+      <Card title="Card title">
+        Some quick example text to build on the card title and make up the bulk of the card's content.
+      </Card>
     </div>
     """
   end
