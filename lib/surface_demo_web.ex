@@ -55,6 +55,7 @@ defmodule SurfaceDemoWeb do
       use Phoenix.Router
       import Plug.Conn
       import Phoenix.Controller
+      import Phoenix.LiveView.Router
     end
   end
 
@@ -62,7 +63,6 @@ defmodule SurfaceDemoWeb do
     quote do
       use Phoenix.Channel
       import SurfaceDemoWeb.Gettext
-      import Phoenix.LiveView.Router
     end
   end
 
