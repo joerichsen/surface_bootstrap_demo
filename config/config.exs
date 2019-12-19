@@ -15,7 +15,10 @@ config :surface_demo, SurfaceDemoWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "8dujbPxA2IH+141nlmEyWT1KQivpu4DmBbj3glzZDmzw2EFt/UHy/x4Khy1b3Gtz",
   render_errors: [view: SurfaceDemoWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: SurfaceDemo.PubSub, adapter: Phoenix.PubSub.PG2]
+  pubsub: [name: SurfaceDemo.PubSub, adapter: Phoenix.PubSub.PG2],
+  live_view: [
+    signing_salt: "SECRET_SALT"
+  ]
 
 # Configures Elixir's Logger
 config :logger, :console,
