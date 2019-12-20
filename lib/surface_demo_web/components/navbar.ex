@@ -16,7 +16,8 @@ defmodule Navbar do
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class={{ "nav-item", active: nav_item.active }} :for={{ nav_item <- @nav_items }}>
-            <a class="nav-link" href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+            <a :if={{ !nav_item.disabled }} class="nav-link" href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+            <a :if={{ nav_item.disabled }} class="nav-link disabled" href="{{ nav_item.url }}" tabindex="-1" aria-disabled="true">{{ nav_item.title }}</a>
           </li>
         </ul>
       </div>

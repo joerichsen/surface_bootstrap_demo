@@ -4,4 +4,5 @@ defmodule NavItem do
   property url, :string
   property title, :string
   property active, :boolean
+  property disabled, :boolean
 end

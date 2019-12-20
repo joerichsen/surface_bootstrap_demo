@@ -30,9 +30,10 @@ defmodule SurfaceDemoWeb.DemoLive do
       </Card>
 
       <Navbar>
-        <NavItem url="#" title="Home" active=true />
+        <NavItem url="#" title="Home" active />
         <NavItem url="#" title="Features" />
         <NavItem url="#" title="Pricing" />
+        <NavItem url="#" title="Disabled" disabled />
       </Navbar>
     </div>
     """
