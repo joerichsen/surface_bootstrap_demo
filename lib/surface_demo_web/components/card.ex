@@ -1,4 +1,8 @@
 defmodule Card do
+  @moduledoc """
+  See https://getbootstrap.com/docs/4.4/components/card/
+  """
+
   use Surface.Component
 
   property title, :string
