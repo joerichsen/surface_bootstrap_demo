@@ -28,6 +28,12 @@ defmodule SurfaceDemoWeb.DemoLive do
       <Card title="Card title">
         Some quick example text to build on the card title and make up the bulk of the card's content.
       </Card>
+
+      <Navbar>
+        <NavItem url="#" title="Home" active=true />
+        <NavItem url="#" title="Features" />
+        <NavItem url="#" title="Pricing" />
+      </Navbar>
     </div>
     """
   end
