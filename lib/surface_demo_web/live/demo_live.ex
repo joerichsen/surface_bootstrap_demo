@@ -4,6 +4,18 @@ defmodule SurfaceDemoWeb.DemoLive do
   def render(assigns) do
     ~H"""
     <div>
+      <Button>Primary</Button>
+      <Button variant="secondary">Secondary</Button>
+      <Button variant="success">Success</Button>
+      <Button variant="danger">Danger</Button>
+      <Button variant="warning">Warning</Button>
+      <Button variant="info">Info</Button>
+      <Button variant="light">Light</Button>
+      <Button variant="dark">Dark</Button>
+      <Button variant="link">Link</Button>
+      <Button size="sm">Small</Button>
+      <Button size="lg">Large</Button>
+
       <Alert>Primary alert</Alert>
       <Alert variant="secondary">Secondary alert</Alert>
       <Alert variant="success">Success alert</Alert>
@@ -12,6 +24,7 @@ defmodule SurfaceDemoWeb.DemoLive do
       <Alert variant="info">Info alert</Alert>
       <Alert variant="light">Light alert</Alert>
       <Alert variant="dark">Dark alert</Alert>
+
       <Card title="Card title">
         Some quick example text to build on the card title and make up the bulk of the card's content.
       </Card>
