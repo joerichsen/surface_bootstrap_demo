@@ -9,7 +9,7 @@ defmodule SurfaceDemo.Application do
     # List all child processes to be supervised
     children = [
       # Start the Ecto repository
-      SurfaceDemo.Repo,
+      # SurfaceDemo.Repo,
       # Start the endpoint when the application starts
       SurfaceDemoWeb.Endpoint
       # Starts a worker by calling: SurfaceDemo.Worker.start_link(arg)
