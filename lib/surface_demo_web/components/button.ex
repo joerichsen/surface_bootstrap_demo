@@ -7,10 +7,11 @@ defmodule Button do
 
   property variant, :string, default: "primary"
   property size, :string, default: nil
+  property click, :event
 
   def render(assigns) do
     ~H"""
-    <button type="button" class={{ :btn, "btn_#{assigns.variant}", size(assigns) }}>
+    <button type="button" phx-click={{ @click }} class={{ :btn, "btn_#{assigns.variant}", size(assigns) }}>
       {{ @inner_content.() }}
     </button>
     """

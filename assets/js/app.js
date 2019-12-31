@@ -19,5 +19,17 @@ import "phoenix_html"
 import {Socket} from "phoenix"
 import LiveSocket from "phoenix_live_view"
 
-let liveSocket = new LiveSocket("/live", Socket)
-liveSocket.connect()
+let Hooks = {};
+
+Hooks.ShowModal = {
+  mounted() {
+    $('#modal').modal('show');
+    self = this;
+    $('#modal').on('hidden.bs.modal', function (e) {
+      self.pushEvent("hide");
+    })
+  }
+};
+
+let liveSocket = new LiveSocket("/live", Socket, {hooks: Hooks});
+liveSocket.connect();
