@@ -15,7 +15,7 @@ defmodule SurfaceDemoWeb.NavbarLive do
         </Navbar>
       </div>
     </div>
-    <div class="row">
+    <div class="row" phx-hook="HighlightCode">
       <div class="col">
         <h4>Code</h4>
         <pre>

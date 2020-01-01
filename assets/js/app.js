@@ -21,6 +21,14 @@ import LiveSocket from "phoenix_live_view"
 
 let Hooks = {};
 
+Hooks.HighlightCode = {
+  mounted() {
+    document.querySelectorAll('pre code').forEach((block) => {
+      hljs.highlightBlock(block);
+    });
+  }
+}
+
 Hooks.ShowModal = {
   mounted() {
     $('#modal').modal('show');
