@@ -45,7 +45,7 @@ defmodule SurfaceDemoWeb.ButtonsLive do
         </pre>
       </div>
     </div>
-    <div class="row">
+    <div class="row mb-5">
       <div class="col">
         <h4>Implementation</h4>
         <a href="https://github.com/joerichsen/surface_bootstrap_demo/blob/master/lib/surface_demo_web/components/button.ex">lib/surface_demo_web/components/button.ex</a>
