@@ -17,7 +17,11 @@ defmodule SurfaceDemoWeb.Router do
   scope "/", SurfaceDemoWeb do
     pipe_through :browser
 
-    live "/", DemoLive
+    live "/", AlertsLive
+    live "/alerts", AlertsLive
+    live "/buttons", ButtonsLive
+    live "/cards", CardsLive
+    live "/navbar", NavbarLive
     get "/", PageController, :index
   end
 
