@@ -6,7 +6,7 @@ defmodule SurfaceDemoWeb.CardsLive do
     <div class="row mb-4">
       <div class="col">
         <h2>Card component</h2>
-        <h4>Examples</h4>
+        <h4>Example</h4>
         <Card title="Card title">
           Some quick example text to build on the card title and make up the bulk of the card's content.
         </Card>
