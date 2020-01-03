@@ -48,7 +48,7 @@ defmodule SurfaceDemoWeb.SpinnersLive do
     <div class="row mb-5">
       <div class="col">
         <h4>Implementation</h4>
-        <a href="https://github.com/joerichsen/surface_bootstrap_demo/blob/master/lib/surface_demo_web/components/button.ex">lib/surface_demo_web/components/spinner.ex</a>
+        <a href="https://github.com/joerichsen/surface_bootstrap_demo/blob/master/lib/surface_demo_web/components/spinner.ex">lib/surface_demo_web/components/spinner.ex</a>
       </div>
     </div>
     """
