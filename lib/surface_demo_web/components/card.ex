@@ -1,4 +1,4 @@
-defmodule Card do
+defmodule SurfaceDemoWeb.Card do
   @moduledoc """
   See https://getbootstrap.com/docs/4.4/components/card/
   """

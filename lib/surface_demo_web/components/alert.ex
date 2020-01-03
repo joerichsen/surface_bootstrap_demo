@@ -1,4 +1,4 @@
-defmodule Alert do
+defmodule SurfaceDemoWeb.Alert do
   @moduledoc """
   See https://getbootstrap.com/docs/4.4/components/alerts/
   """

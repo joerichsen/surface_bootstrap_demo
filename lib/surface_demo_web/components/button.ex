@@ -1,4 +1,4 @@
-defmodule Button do
+defmodule SurfaceDemoWeb.Button do
   @moduledoc """
   See https://getbootstrap.com/docs/4.4/components/buttons/
   """

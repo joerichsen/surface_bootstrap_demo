@@ -1,4 +1,4 @@
-defmodule Modal do
+defmodule SurfaceDemoWeb.Modal do
   use Surface.LiveComponent
 
   property title, :string

@@ -1,9 +1,11 @@
-defmodule Navbar do
+defmodule SurfaceDemoWeb.Navbar do
   @moduledoc """
   See https://getbootstrap.com/docs/4.4/components/navbar/
   """
 
   use Surface.Component
+
+  alias SurfaceDemoWeb.NavItem
 
   property nav_items, :children, group: NavItem
 

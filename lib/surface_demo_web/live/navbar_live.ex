@@ -1,6 +1,8 @@
 defmodule SurfaceDemoWeb.NavbarLive do
   use Surface.LiveView
 
+  alias SurfaceDemoWeb.{Navbar, NavItem}
+
   def render(assigns) do
     ~H"""
     <div class="row mb-4">

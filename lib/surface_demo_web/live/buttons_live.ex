@@ -1,6 +1,8 @@
 defmodule SurfaceDemoWeb.ButtonsLive do
   use Surface.LiveView
 
+  alias SurfaceDemoWeb.Button
+
   def render(assigns) do
     ~H"""
     <div class="row">

@@ -1,6 +1,8 @@
 defmodule SurfaceDemoWeb.CardsLive do
   use Surface.LiveView
 
+  alias SurfaceDemoWeb.Card
+
   def render(assigns) do
     ~H"""
     <div class="row mb-4">

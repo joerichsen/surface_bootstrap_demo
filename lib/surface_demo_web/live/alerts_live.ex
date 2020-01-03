@@ -1,6 +1,8 @@
 defmodule SurfaceDemoWeb.AlertsLive do
   use Surface.LiveView
 
+  alias SurfaceDemoWeb.Alert
+
   def render(assigns) do
     ~H"""
     <div class="row">

@@ -1,4 +1,4 @@
-defmodule NavItem do
+defmodule SurfaceDemoWeb.NavItem do
   use Surface.DataComponent
 
   property url, :string
