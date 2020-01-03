@@ -10,18 +10,18 @@ defmodule SurfaceDemoWeb.SpinnersLive do
         <h2>Spinner component</h2>
         <h4>Examples</h4>
         <p>
-          <Spinner></Spinner>
-          <Spinner variant="primary"></Spinner>
-          <Spinner variant="secondary"></Spinner>
-          <Spinner variant="success"></Spinner>
-          <Spinner variant="danger"></Spinner>
-          <Spinner variant="warning"></Spinner>
-          <Spinner variant="info"></Spinner>
-          <Spinner variant="light"></Spinner>
-          <Spinner variant="dark"></Spinner>
+          <Spinner />
+          <Spinner variant="primary" />
+          <Spinner variant="secondary" />
+          <Spinner variant="success" />
+          <Spinner variant="danger" />
+          <Spinner variant="warning" />
+          <Spinner variant="info" />
+          <Spinner variant="light" />
+          <Spinner variant="dark" />
         <p>
         </p>
-          <Spinner center></Spinner>
+          <Spinner center />
         </p>
       </div>
     </div>
@@ -30,17 +30,17 @@ defmodule SurfaceDemoWeb.SpinnersLive do
         <h4>Code</h4>
         <pre>
           <code>
-            &#x3C;Spinner&#x3E;&#x3C;/Spinner&#x3E;
-            &#x3C;Spinner variant=&#x22;primary&#x22;&#x3E;&#x3C;/Spinner&#x3E;
-            &#x3C;Spinner variant=&#x22;secondary&#x22;&#x3E;&#x3C;/Spinner&#x3E;
-            &#x3C;Spinner variant=&#x22;success&#x22;&#x3E;&#x3C;/Spinner&#x3E;
-            &#x3C;Spinner variant=&#x22;danger&#x22;&#x3E;&#x3C;/Spinner&#x3E;
-            &#x3C;Spinner variant=&#x22;warning&#x22;&#x3E;&#x3C;/Spinner&#x3E;
-            &#x3C;Spinner variant=&#x22;info&#x22;&#x3E;&#x3C;/Spinner&#x3E;
-            &#x3C;Spinner variant=&#x22;light&#x22;&#x3E;&#x3C;/Spinner&#x3E;
-            &#x3C;Spinner variant=&#x22;dark&#x22;&#x3E;&#x3C;/Spinner&#x3E;
+            &#x3C;Spinner /&#x3E;
+            &#x3C;Spinner variant=&#x22;primary&#x22; /&#x3E;
+            &#x3C;Spinner variant=&#x22;secondary&#x22; /&#x3E;
+            &#x3C;Spinner variant=&#x22;success&#x22; /&#x3E;
+            &#x3C;Spinner variant=&#x22;danger&#x22; /&#x3E;
+            &#x3C;Spinner variant=&#x22;warning&#x22; /&#x3E;
+            &#x3C;Spinner variant=&#x22;info&#x22; /&#x3E;
+            &#x3C;Spinner variant=&#x22;light&#x22; /&#x3E;
+            &#x3C;Spinner variant=&#x22;dark&#x22; /&#x3E;
 
-            &#x3C;Spinner center&#x3E;&#x3C;/Spinner&#x3E;
+            &#x3C;Spinner center /&#x3E;
           </code>
         </pre>
       </div>
