@@ -22,6 +22,7 @@ defmodule SurfaceDemoWeb.Router do
     live "/buttons", ButtonsLive
     live "/cards", CardsLive
     live "/navbar", NavbarLive
+    live "/spinners", SpinnersLive
     get "/", PageController, :index
   end
 
